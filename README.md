@@ -3,6 +3,8 @@ Composable helpers for decoding blockchain transactions
 
 [![Build Status](https://travis-ci.org/ilyavf/tx-decoder.png?branch=master)](https://travis-ci.org/ilyavf/tx-decoder)
 
+> WARNING: This package is deprecated. Use [tx-builder ](https://www.npmjs.com/package/tx-builder) which includes both transaction builder and decoder.
+
 This package contains **composable helpers** for decoding a blockchain transaction and implements an example of bitcoin transaction decoder.
 
 It can be useful for blockchain projects forked from BitcoinCore that want to add **custom data to a transaction**.
@@ -64,7 +66,7 @@ Checkout tests for exact examples of how to use the package helpers.
 ## Upcoming
 
 - decode script
-- create a transaction builder
+- create a transaction builder (see [tx-builder](https://www.npmjs.com/package/tx-builder) package)
 
 ## Release Notes:
 - 0.2.0 Added readHash helper
